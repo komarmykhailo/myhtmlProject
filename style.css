@@ -1,0 +1,46 @@
+header {
+    background: linear-gradient(to right, white 50%, cyan 60%, magenta 70%, yellow 80%, black 90%)  
+}
+
+nav {
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    
+}
+
+li {
+    float: left;
+    clear: none;
+    
+}
+
+li a {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px white;
+    padding: 16px;
+}
+
+section {
+    display: flex; 
+}
+
+section div {
+    display: inline-grid;
+    font-size: larger;
+}
+/*header nav div {
+    display: flex;
+}
+
+    
