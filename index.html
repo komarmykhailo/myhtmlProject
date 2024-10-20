@@ -3,16 +3,15 @@
     <head>
         <title>Present Print</title>
         <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="3">
+        <!--<meta http-equiv="refresh" content="100">-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css"> 
-        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>    
+        <header>
             <nav>
                 <ul>
-                    <li><a href="index.html"><img src="resources/logo.jpg" alt="present_print" width="150px"></li></a>
+                    <li><a href="index.html"><img src="resources/logo.jpg" alt="present_print" width="150px"></a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -22,25 +21,51 @@
                 </ul>
         </nav>
         </header>
-
-        <section>
-            <img src="resources/DTFicon.png" alt="dtf" width="30%">
-            <div>
-                <h1>What is DTF printing?</h1>
-                <p>DTF printing involves printing a design onto a piece of PET film (a special film with a coating 
-                that helps transfer designs) using water-based inks and a special adhesive powder. 
-                Then, the design on the PET film is heat-transferred to fabric using a heat press machine. This 
-                printing method is durable and the designs come out detailed and vibrant.</p>
+        <section class="container">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <div class="image">
+                        <img id="slide-1" src="resources/slide1.jpg" alt="printed-hoodie-pikachu">
+                        <h1><span>Keep your team cozy and your brand on show with custom hoodies.</span></h1>
+                    </div>
+                    <div class="image">
+                        <img id="slide-2" src="resources/slide2.jpg" alt="metal-prints-square">
+                        <h1><span>Give walls a modern, industrial touch with metal photo prints.</span></h1>
+                    </div>
+                    <div class="image">
+                        <img id="slide-3" src="resources/slide3.jpg" alt="printed-mug">
+                        <h1><span>Create a personalized mug that'll spark daily smiles at an unbelievable value.</span></h1>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1" aria-label="slide-1"></a>
+                    <a href="#slide-2" aria-label="slide-2"></a>
+                    <a href="#slide-3" aria-label="slide-3"></a>
+                </div>
             </div>
-            
+            <div class="about-pp">
+                <h1>Present Print</h1>
+                <p>Here for small business since 1995.
+                    For more than 20 years, Present Print has helped small business owners,
+                    entrepreneurs and dreamers create custom designs and professional marketing.
+                    Our online printing services are intended to help you find custom products
+                    you need business cards, promotional marketing and more
+                    to create a look you love.</p>
+                    <!--TO DO link for button "make order"-->
+                <button type="button">Make order!</button>
+            </div>
         </section>
-
-       
-
-        <footer>          
-           <h1>fhghdff</h1>
-           <h2>342353465465434</h2>
+        <section class="products">
+            <h1>Featured Products</h1>
+            <div>
+                <img src="resources/mug.jpg" alt="mug">
+                <img src="resources/paz.jpg" alt="paz">
+                <img src="resources/cap.PNG" alt="cap">
+                <img src="resources/bearmug.jpg" alt="bearmug">
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Present Print</p>
         </footer>
-        
     </body>
-</html>
+</html>       
